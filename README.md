@@ -24,6 +24,7 @@ I tested the website on different screen sizes to ensure it was responsive and a
 
 ---
 
+
 ## Challenges and Solutions
 
 One of the biggest challenges I faced was making the layout responsive, especially the menu section where images and text needed to stay aligned properly on different screen sizes. I solved this by using Bootstrap’s grid system and adjusting flexbox properties in CSS.
@@ -74,6 +75,22 @@ Some images used in this project were either:
 All external resources used are for educational purposes only.
 
 ---
+## UX Design Reference (Figma)
+
+This website was developed using the mockups, wireframes, and design elements created in my User Experience Design course. The Figma design was used as a guide for layout, spacing, typography, and overall structure of the website.
+
+The goal was to closely follow the original design while adapting it into a responsive Bootstrap-based website.
+
+Figma Design Link:
+(https://www.figma.com/design/6FBx1HaZ3Q1m55BHYujpZV/meriem-idiri-hi-fi-wireframes?node-id=95-2&t=JHXnFGwPKR1aYJkk-1)
+
+## Feedback and Revisions
+
+After receiving feedback on my project, I made several improvements to refine the final website. One of the main changes was simplifying the design by removing some unnecessary elements, such as the logo and other extra visual details.
+
+This helped make the layout cleaner, more focused, and easier to navigate. It also improved consistency across all pages and made the website feel more professional.
+
+These changes helped me better understand the importance of minimal design and maintaining clarity in user experience. I learned that removing extra elements can sometimes improve the overall design rather than reduce it.
 
 ## Deployment
 
