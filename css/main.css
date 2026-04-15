@@ -1,6 +1,6 @@
-/* ========================= */
-/* GLOBAL */
-/* ========================= */
+/* Global styles applied to the entire website.
+This sets the main background color, removes default spacing, and defines the base font.
+It ensures the website has a consistent look across all pages. */
 
 body {
   margin: 0;
@@ -8,34 +8,34 @@ body {
   background-color: #e6e2c8;
 }
 
+/* Headings and brand text use a different font (Playfair Display) to create contrast between titles and body text and improve visual hierarchy. */
 h1, h2, h3, .brand {
   font-family: 'Playfair Display', serif;
 }
-
+/* Paragraph styling to improve readability by increasing line spacing. */
 p {
   line-height: 1.6;
 }
 
-/* ========================= */
-/* NAVBAR */
-/* ========================= */
+/* Custom navbar background color to match the restaurant theme. It keeps the navigation visually consistent with the overall design. */
+
 
 .custom-nav {
   background: #e6e2c8;
 }
-
+/* Branding style for the restaurant name in the navbar. It uses green color and underline border to make it stand out. */
 .brand {
   color: #2e6b4d;
   font-weight: bold;
   border-bottom: 3px solid #2e6b4d;
   display: inline-block;
 }
-
+/* Navigation links styling for better spacing and readability. */
 .nav-link {
   color: black;
   margin-left: 20px;
 }
-
+/* Active page link styling to show which page the user is currently on. */
 .nav-link.active {
   color: #2e6b4d;
   font-weight: bold;
@@ -69,11 +69,9 @@ font-size: 18px;
 
 }
 
-/* ========================= */
-/* HERO */
-/* ========================= */
 
-/* HERO BACKGROUND */
+
+/* Hero section uses a full-width background image. Flexbox is used to center the content both vertically and horizontally. */
 .hero {
   background: url('../images/hero_img.jpg') center/cover no-repeat;
   height: 450px;
@@ -132,10 +130,7 @@ font-size: 18px;
   font-weight: bold;
 }
 
-/* ========================= */
-/* ABOUT */
-/* ========================= */
-
+/* About section container with border styling to highlight content. */
 .about-box {
   background: #e6e2c8;
   border: 2px solid #2e6b4d;
@@ -148,23 +143,21 @@ font-size: 18px;
   border-bottom: 3px solid #2e6b4d;
   display: inline-block;
 }
-
+/* Image styling inside about section to make it responsive and properly fit layout. */
 .about-img {
   width: 100%;
   height: 220px;
   object-fit: cover;
 }
 
-/* ========================= */
-/* CTA */
-/* ========================= */
+/* Call-to-action section with background image to attract user attention. */
 
 .cta-section {
   background: url('../images/reserve_panel.jpg') center/cover no-repeat;
   height: 100%;
   display: flex;
 }
-
+/* Overlay layer used to make text readable over background image. */
 .cta-overlay {
   background: rgba(0,0,0,0.35);
   width: 100%;
@@ -182,10 +175,7 @@ font-size: 18px;
   min-height: 220px;
 }
 
-/* ========================= */
-/* FOOTER */
-/* ========================= */
-
+/* Footer bar used as a visual separator between content and footer area. */
 .footer-bar {
   height: 20px;
   background: linear-gradient(to bottom,#2e6b4d 50%,#e6e2c8 50%);
@@ -203,6 +193,7 @@ footer {
   text-align: center;
   padding: 20px 0;
 }
+/* Title styling for reservation page to make it stand out. */
 
 .reserve-title h1 {
   color: #2e6b4d;
@@ -213,7 +204,7 @@ footer {
 .reserve-section {
   padding: 40px;
 }
-
+/* Reservation form layout using flexbox for vertical alignment and spacing. */
 .reserve-form {
   background: #d9d8b3;
   padding: 30px;
@@ -221,7 +212,7 @@ footer {
   flex-direction: column;
   gap: 20px;
 }
-
+/* Styling for form inputs to make them consistent and readable. */
 .reserve-form input,
 .reserve-form select {
   padding: 15px;
@@ -260,12 +251,13 @@ footer {
   text-align: center;
   padding: 20px 0;
 }
-
+/* Menu page title styling for consistency with other pages. */
 .Our-Menu-title h1 {
   color: #2e6b4d;
   border-bottom: 3px solid #2e6b4d;
   display: inline-block;
 }
+/* Menu layout container with padding for spacing. */
 .menu-section {
   padding: 40px 20px;
 }
@@ -280,7 +272,7 @@ footer {
   object-fit: cover;
   border: 1px solid #2e6b4d;
 }
-
+/* Menu item layout using flexbox to align text and images horizontally. */
 .menu-item {
   display: flex;
   align-items: center;
@@ -316,9 +308,7 @@ footer {
   border: 1px solid #2e6b4d;
 }
 
-/* ========================= */
-/* RESPONSIVE */
-/* ========================= */
+/* Responsive adjustments for tablet and smaller screens. The layout switches to vertical stacking to improve usability on mobile devices. */
 
 @media (max-width: 992px){
 
